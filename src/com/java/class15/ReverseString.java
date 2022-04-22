@@ -7,14 +7,14 @@ public class ReverseString {
         System.out.println("Enter any String: ");
         Scanner sc = new Scanner(System.in);
         String word = sc.nextLine();
-        String newStr = "";
+        String getRev = "";
 
 
         for (int i = word.length() -1; i>=0; i--){
-            newStr += word.charAt(i);
+            getRev += word.charAt(i);
 
 
         }
-        System.out.println(newStr);
+        System.out.println(getRev);
     }
 }
